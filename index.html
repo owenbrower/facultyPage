@@ -1,1 +1,186 @@
-swag
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Teacher Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #cb2806;
+      color: ;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: #FFF;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+      .table {
+        margin-left: 1%;
+        margin-top: 1%;
+      }
+    img {width: 90%;}
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-inverse" id="top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="http://www.seattleacademy.org">SAAS Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="math.html">Math Teachers</a></li>
+        <li><a href="humanities.html">Humanities Teachers</a></li>
+        <li><a href="language.html">Language Teachers</a></li>
+        <li><a href="arts.html">Arts Teachers</a></li>
+        <li><a href="athletics.html">Athletics Staff</a></li>
+        <li class="active"><a href="administration.html">Administration</a></li>
+        <li><a href="other.html">Other Faculty/Staff</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Table -->
+<div>
+  <table class="table table-striped table-bordered" id="table">
+    <thead>
+      <tr><th>Teacher</th><th>Title/Department</th><th>Email</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><a href="#row1">David Johns</td><td>Upper School Math</td><td>djohns@gmail.com</td></tr>
+      <tr><td><a href="#row2">Julio Bustamante</td><td>smthing</td><td>jbustamante@gmail.com</td></tr>
+      <tr><td><a href="#row3">Peter Mannisto</td><td>smthing</td><td>pmannisto@gmail.com</td></tr>
+      <tr><td><a href="#row4">Mark Betnel</td><td>smthing</td><td>mbetnel@gmail.com</td></tr>
+      <tr><td><a href="#row5">Matthew Frost</td><td>smthing</td><td>mfrost@gmail.com</td></tr>         
+      <tr><td><a href="#row6">Gerald Elliott</td><td>smthing</td><td>gelliott@gmail.com</td></tr>
+      <tr><td><a href="#row7">Brian Urrutia</td><td>smthing</td><td>burrutia@gmail.com</td></tr>                  
+    </tbody>
+  </table>
+</div>
+<!-- Faculty -->
+<div class="container-fluid text-center">    
+<!-- Johns -->
+  <div class="row content" id="row1">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Johns-David.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>David Johns</strong> - Mathematics; Coach</h1>
+      <p>B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+<!-- Bustamante -->
+  <div class="row content" id="row2">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Burl-Shaun.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>Shaun Burl</strong> - 9th Grade Coordinator; Physical Education; Coach</h1>
+      <p>B.A., Seattle University. Shaun has worked with children of all ages from pre-school to teenagers. Former positions include working with a low-income elementary school to help develop a conflict resolution system and develop student leadership, teaching 5-18 year olds being treated for mental illnesses at Children’s Hospital, and coaching basketball to middle school students. Most recently, Shaun was a Physical Education and Movement teacher at Giddens School.</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+    </div>
+  </div>
+<!-- Mannisto -->
+  <div class="row content" id="row3">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Deeg-LeGal-Fran%C3%A7oise.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>Francoise Deeg-Le Gal</strong> - Foreign Language Department Chair; French; Latin</h1>
+      <p>Baccalaureat from the Academie de Rennes in France; undergraduate studies at the University de Haute Bretagne and at Friedrich-Whilhelm Universitaet; M.A., University of Rochester; doctoral studies at University of Rochester. Before coming to Seattle Academy in 1997, Francoise was Head of the foreign language department at Overlake School in Redmond, Washington for many years, taught French at Bellevue Community College, and worked as a translator for Microsoft.</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+<!-- Betnel -->
+  <div class="row content" id="row4">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Betnel-Mark.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>David Johns</strong> - Mathematics; Coach</h1>
+      <p>B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+<!-- Frost -->
+  <div class="row content" id="row5">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Frost-Matthew.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>David Johns</strong> - Mathematics; Coach</h1>
+      <p>B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+<!-- Elliott -->
+  <div class="row content" id="row6">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Elliott-Gerald.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>David Johns</strong> - Mathematics; Coach</h1>
+      <p>B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+<!-- Urrutia -->
+  <div class="row content" id="row7">
+    <div class="col-sm-2 sidenav">
+      <img src="http://saasmath.seattleacademy.org/facultypics/Urrutia-Brian.jpg">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>David Johns</strong> - Mathematics; Coach</h1>
+      <p>B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”</p>
+      <hr>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+</body>
+</html>
